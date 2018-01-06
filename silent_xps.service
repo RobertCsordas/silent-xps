@@ -1,0 +1,11 @@
+[Unit]
+Description=XPS fan silencer
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/silent_xps -config /etc/silent_xps.json
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
