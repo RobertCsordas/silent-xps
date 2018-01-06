@@ -5,7 +5,7 @@ The problem
 -----------
 
 The BIOS of Dell XPS 9560 frequently forgets to stop the fan when the fan is on lower speed and the CPU is cool
-enough. This is very annoying, as once the fan turns on, it rarely shuts down. There exists a custom fan control
+enough. This is very annoying, as once the fan turns on, it rarely shuts down. There is a custom fan control
 daemon called i8k, but it turns off BIOS fan control which is very dangerous and suppors only 2 fan speeds.
 
 How it works
