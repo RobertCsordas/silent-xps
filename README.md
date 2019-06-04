@@ -1,6 +1,11 @@
 Dell XPS fan control helper tool
 ================================
 
+Note
+----
+
+New BIOSes are much less agressive than the old ones, so this script is not needed anymore. It works just fine without.
+
 The problem
 -----------
 
